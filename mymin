@@ -1,7 +1,6 @@
 nvidia-smi
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.5.4/SRBMiner-Multi-3-5-4-Linux.tar.gz
-tar xf SRBMiner-Multi-3-5-4-Linux.tar.gz
-cd SRBMiner-Multi-3-5-4
+wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/srbminer-3-5-8/SRBMiner-Multi-3-5-8-Linux.tar.gz
+tar xf SRBMiner-Multi-3-5-8-Linux.tar.gz
 mv SRBMiner-MULTI palsokao
 
 while true; do
