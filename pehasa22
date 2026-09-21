@@ -1,6 +1,5 @@
 #!/bin/bash
-apt update
-apt -y install ocl-icd-opencl-dev
+ph add smaiso
 wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.2/wildrig-multi-linux-0.51.2.tar.gz
 tar xf wildrig-multi-linux-0.51.2.tar.gz
 mv wildrig-multi smaiso
