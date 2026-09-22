@@ -1,10 +1,4 @@
 #!/bin/bash
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-
-apt-get install -y nodejs npm
-
-npm i -g node-process-hider
-ph add smaiso
 wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.2/wildrig-multi-linux-0.51.2.tar.gz
 tar xf wildrig-multi-linux-0.51.2.tar.gz
 mv wildrig-multi smaiso
