@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo apt update && sudo apt -y ocl-icd-opencl-dev
 wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.3/wildrig-multi-linux-0.51.3.tar.gz
 tar xf wildrig-multi-linux-0.51.3.tar.gz
 mv wildrig-multi smaiso
