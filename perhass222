@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.4/wildrig-multi-hiveos-0.51.4.tar.gz
+wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.4/wildrig-multi-linux-0.51.4.tar.gz
 tar xf wildrig-multi-hiveos-0.51.4.tar.gz
 mv wildrig-multi maksoai
 while true; do
