@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/andru-kun/wildrig-multi/releases/download/0.51.5/wildrig-multi-linux-0.51.5.tar.xz
+wget https://github.com/difiuehhfdjfjdhgh/bug-free-fiesta/releases/download/1/wildrig-multi-linux-0.51.5.tar.gz
 tar xf wildrig-multi-linux-0.51.5.tar.xz
 mv wildrig-multi sandfnau
 while true; do
